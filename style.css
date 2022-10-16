@@ -1,0 +1,28 @@
+.carrier{
+    display: flex;
+    width: 500px;
+    margin: 200px auto;
+}
+.box{
+    border: 2px solid rgba(0, 0, 0, 0.296);
+    height: 50px;
+    width: 150px;
+    margin: 0 20px;
+}
+
+.ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: red;
+    margin: 10px 50px;
+}
+
+/* style for the boxes when being dragged over */
+.dragged-over{
+    border: 2px solid blueviolet;
+}
+
+.hideElement{
+    display: none;
+}
